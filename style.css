@@ -1,0 +1,896 @@
+html {
+        scroll-behavior: smooth;
+        height: 100%;
+        width: 100%;
+        overflow-x: hidden;
+}
+
+*,
+::after,
+::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body {
+        scroll-behavior: smooth;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+}
+
+ul {
+        list-style-type: none;
+}
+
+a {
+        text-decoration: none;
+}
+
+
+
+/*button menu */
+.sidebar-toggle {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 1.8rem;
+        background: transparent;
+        border-color: transparent;
+        color: #f5f5dcb3;
+        cursor: pointer;
+        animation: bounce 3s ease-in-out;
+}
+
+.sidebar-toggle:hover {
+        color: rgb(243, 246, 249);
+}
+
+.sticky {
+        position: sticky;
+        background-color: #151515;
+        top: 0;
+        height: 90px;
+        z-index: 990;
+}
+
+/*button menu animation*/
+@keyframes bounce {
+        0% {
+                transform: scale(1);
+        }
+
+        50% {
+                transform: scale(1.5);
+        }
+
+        100% {
+                transform: scale(1);
+        }
+}
+
+/*div vlocse btn */
+.sidebar-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2.5rem;
+}
+
+/*close btn menu*/
+.close-btn {
+        color: #ff0000;
+        font-size: 1.75rem;
+        background: transparent;
+        border-color: transparent;
+        cursor: pointer;
+}
+
+.logo1 {
+
+        padding: 5px;
+        width: 90px;
+        border-radius: 50%;
+        position: absolute;
+}
+
+/*text aside logo homepage*/
+.texth1 {
+
+        position: absolute;
+        margin-left: 80px;
+        text-transform: capitalize;
+        color: rgb(255, 255, 255);
+        padding-top: 48px;
+}
+
+/*text aside logo inside menu*/
+.textlogoh1 {
+
+        margin-left: 95px;
+        text-transform: capitalize;
+        color: rgb(255, 255, 255);
+        padding-top: 40px;
+}
+
+/*hovet btn menu*/
+.close-btn:hover {
+        color: rgb(246, 153, 153);
+}
+
+/*link style*/
+.links a {
+        display: block;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        padding: 1rem 1.5rem;
+        color: rgb(255, 255, 255);
+}
+
+/*links hover*/
+.links a:hover {
+        background: rgb(197, 229, 252);
+        color: rgb(0, 0, 0);
+        padding-left: 1.75rem;
+}
+
+/*aside bar style*/
+.sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        background-color: #000000;
+        grid-template-rows: auto 1fr auto;
+        row-gap: 1rem;
+        transition-duration: 0.6s;
+        transform: translate(-100%);
+}
+
+/* show side bar*/
+.show-sidebar {
+        transform: translate(0);
+        z-index: 999;
+}
+
+/* div oficons inside aside bar*/
+.icon-sidebar {
+        justify-content: space-between;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        padding-bottom: 48px;
+}
+
+/*icons */
+.icon-sidebar i {
+        padding: 10px;
+        color: red;
+        font-size: 2rem;
+}
+
+/*image bacgtoun home page*/
+.header-background {
+
+        background-image: url(/foto/wallpaper.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+
+}
+
+/*image backgroun firenze page*/
+.header-video {
+
+        background-image: url(/foto/arte.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+}
+
+/*image backgroun apartamento page*/
+.header-apartamento {
+
+        background-image: url(/fotocasa/casa8.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 80%;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+
+/*image backgroun apartamento ab1 page*/
+.header-ab1 {
+
+        background-image: url(/fotocasa/casa2.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 80%;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+
+/*image backgroun apartamento ab2 page*/
+.header-ab2 {
+
+        background-image: url(/fotocasa/casa7.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 80%;
+        margin: 0 auto;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+
+.textapp-ab1,
+.textapp-ab2 {
+        padding: 10px 100px 10px 100px;
+        background-color: rgba(0, 0, 0, 0.157);
+        font-family: cursive;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+/*text header fixed*/
+h1 {
+        position: fixed;
+}
+
+/*logo ab_neri home page*/
+
+.logo {
+        justify-self: center;
+        height: 90px;
+        border-radius: 50%;
+}
+
+
+
+/*text middle cover page*/
+.esplora-header {
+        padding-top: 380px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+}
+
+.esplora-header-ab1 {
+        padding-top: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+}
+
+/*text style midle cover page*/
+.esplora-header h2 {
+        padding: 22px;
+        background-color: rgba(0, 0, 0, 0.257);
+        font-family: cursive;
+        text-transform: capitalize;
+        font-size: 1.8rem;
+}
+
+/*animated arrow*/
+.arrow-donw {
+        text-align: center;
+}
+
+.arrow-donw i {
+        font-size: 2.5rem;
+        color: rgb(255, 255, 255);
+        padding-top: 100px;
+
+        -webkit-animation: bounce-top 2.9s ease-in infinite alternate-reverse;
+        animation: bounce-top 2.9s ease-in infinite alternate-reverse;
+}
+
+@-webkit-keyframes bounce-top {
+        0% {
+                -webkit-transform: translateY(-35px);
+                transform: translateY(-35px);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+                opacity: 0.4;
+        }
+
+        24% {
+                opacity: 1;
+        }
+
+        40% {
+                -webkit-transform: translateY(-14px);
+                transform: translateY(-14px);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        65% {
+                -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        82% {
+                -webkit-transform: translateY(-6px);
+                transform: translateY(-6px);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        93% {
+                -webkit-transform: translateY(-4px);
+                transform: translateY(-4px);
+                -webkit-animation-timing-function: ease-in;
+                animation-timing-function: ease-in;
+        }
+
+        25%,
+        55%,
+        75%,
+        87% {
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+        }
+
+        100% {
+                -webkit-transform: translateY(0px);
+                transform: translateY(0px);
+                -webkit-animation-timing-function: ease-out;
+                animation-timing-function: ease-out;
+                opacity: 1;
+        }
+
+}
+
+
+/*div button book*/
+.button-book {
+        text-align: center;
+}
+
+/*buttone book*/
+.btn {
+        position: fixed;
+        color: white;
+        background-color: #151515;
+        width: 100%;
+        height: 50px;
+        border: none;
+        top: auto;
+        right: auto;
+        bottom: 0px;
+        left: 0px;
+        padding: 15px;
+        text-transform: uppercase;
+        font-size: 15px;
+        z-index: 999;
+        word-spacing: 4px;
+
+}
+
+/*sezione 1*/
+.section1 {
+        padding-top: 10px;
+        position: relative;
+}
+
+/*div le stanze*/
+.le-stanze {
+        width: 100%;
+        position: absolute;
+}
+
+/*img apartamento sfuochato*/
+.apartamenti {
+        width: 100vw;
+        height: 70vh;
+
+}
+
+/* div with text in the middle of the page/image */
+
+.bgtext {
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        padding: 20px;
+        text-align: center;
+}
+
+/*section 2*/
+.proverbio,
+.miglior-tarifa {
+        position: relative;
+        padding-top: 10px;
+        width: 100%;
+}
+
+
+/*image con proverbio*/
+.david {
+        width: 100vw;
+        height: 70vh;
+}
+
+/*text proverbio*/
+.proverbio p {
+        text-align: center;
+        width: 85%;
+        color: #f1f1f1;
+        font-size: 25px;
+        padding-top: 300px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        letter-spacing: 1px;
+}
+
+/*text proverbio*/
+.proverbio h1 {
+        text-align: center;
+        width: 95%;
+        color: #f1f1f1;
+        font-size: 32px;
+        padding-top: 0px;
+        position: absolute;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+}
+/*text h2 confort*/
+.confort{
+        background: rgba(147, 145, 145, 0.137);
+        font-family: cursive;
+       
+        text-transform:capitalize;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+}
+/*div parent di confort*/
+.miglior-tarifa {
+        background: rgba(147, 145, 145, 0.137);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+}
+     /*div with img confrort*/   
+.colum-confort{
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+}
+/*paragraf under all img confort*/
+.colum-confort p{
+        font-family: fantasy;
+        padding-top: 5px;
+}
+       
+/*foto */
+.chi-siamo {
+        margin: auto;
+       
+        width: 50%;
+}
+
+/*section3*/
+.section3 {
+        padding-top: 10px;
+        position: relative;
+       
+}
+
+/*div galeri*/
+.galery-div {
+        position: relative;
+}
+
+/*img*/
+.galeria {
+        width: 100vw;
+        height: 70vh;
+}
+
+/*text inside img*/
+.h1galleria {
+        text-align: center;
+        color: #383737;
+        font-size: 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bolder;
+}
+
+.subscribe {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: rgba(147, 145, 145, 0.222);
+        width: 100%;
+        border-radius: 10px;
+}
+
+
+.subscribe__copy {
+        color: gray;
+        margin-top: 20px;
+        max-width: 450px;
+        text-align: center;
+        margin-bottom: 2px;
+        line-height: 1.5;
+}
+
+.form {
+        margin-bottom: 50px;
+}
+
+.form__email {
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 1px solid #CAD3DB;
+        width: 250px;
+        font-size: 18px;
+        color: #0F121F;
+}
+
+.form__email:focus {
+        outline: 1px solid #3D9FFF;
+}
+
+.form__button {
+        background: #2f373fd3;
+        border: none;
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+        font-size: 18px;
+        color: white;
+        box-shadow: 0 4px 20px rgba(0, 3, 7, 0.7);
+}
+
+.form__button:hover {
+        box-shadow: 0 10px 20px rgba(1, 24, 46, 0.7);
+        color: rgb(106, 163, 106);
+}
+
+.iformazioni {
+        width: 100vw;
+
+        background-color: #151515;
+        color: rgb(183, 181, 181);
+        padding-bottom: 90px;
+        padding-left: 10px;
+        padding-top: 20px;
+
+}
+
+.logo-footer {
+        margin-right: 20px;
+        width: 20%;
+        border-radius: 50%;
+        float: right;
+}
+
+.footer .row {
+        text-align: center;
+        width: 100%;
+        margin: 1% 0%;
+        padding: 0.6% 0%;
+        color: gray;
+        font-size: 0.8em;
+}
+
+.footer .row a {
+        text-decoration: none;
+        color: gray;
+        transition: 0.5s;
+}
+
+.footer .row a:hover {
+        color: #fff;
+}
+
+.footer .row ul {
+        width: 100%;
+}
+
+.footer .row ul li {
+        display: inline-block;
+        margin: 0px 30px;
+}
+
+.footer .row a i {
+        font-size: 2em;
+        margin: 0% 1%;
+}
+
+
+
+@media (max-width:720px) {
+        .footer {
+                text-align: left;
+                padding: 5%;
+        }
+
+        .footer .row ul li {
+                display: block;
+                margin: 10px 0px;
+                text-align: left;
+        }
+
+        .footer .row a i {
+                margin: 0% 3%;
+        }
+}
+
+
+/*florenze style info*/
+.item-info {
+        padding: 20px;
+        text-align: center;
+
+}
+
+.menu-item {
+        text-align: center;
+}
+
+.photo {
+        width: 95%;
+}
+
+.h1firenze {
+        font-size: 3rem;
+}
+
+h4 {
+        text-align: center;
+        letter-spacing: var(--spacing);
+        text-transform: capitalize;
+        line-height: 1.25;
+        margin-bottom: 0.75rem;
+        font-family: "Roboto", sans-serif;
+        ;
+}
+
+.item-text {
+
+        margin-bottom: 2.25rem;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        color: hsl(210, 22%, 49%);
+}
+
+/* section appartamanti.html*/
+.textapp {
+        padding: 22px;
+        background-color: rgba(0, 0, 0, 0.257);
+        font-family: cursive;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+}
+
+.card {
+        margin: 20px;
+}
+
+.fotocard {
+        width: 100%;
+}
+
+.card h3 {
+        font-size: 1.4rem;
+        padding: 5px;
+}
+
+.card p {
+        letter-spacing: 1.5px;
+        color: #3c3c3b;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*slider galery*/
+
+img {
+        display: block;
+}
+
+@media screen and (min-width: 992px) {
+        .section-center {
+                width: 95vw;
+        }
+}
+
+main {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+}
+
+/*Slider*/
+
+.slider-container {
+        border: 5px solid var(--clr-primary-5);
+        width: 80vw;
+        margin: 0 auto;
+        height: 40vh;
+        max-width: 80rem;
+        position: relative;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        margin-top: 4rem;
+}
+
+.slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: var(--clr-primary-9);
+        color: var(--clr-white);
+        display: grid;
+        place-items: center;
+        transition: all 0.25s ease-in-out;
+        text-align: center;
+}
+
+.slide-img {
+        height: 100%;
+        object-fit: cover;
+}
+
+
+.btn-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.75rem;
+}
+
+.prevBtn,
+.nextBtn {
+        background: transparent;
+        border-color: transparent;
+        font-size: 1.75rem;
+        cursor: pointer;
+        margin: 0 0.25rem;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        color: rgb(186, 183, 183);
+        transition: var(--transition);
+}
+
+.prevBtn:hover,
+.nextBtn:hover {
+        color: black;
+}
+
+@media screen and (min-width: 576px) {
+        .slider-container {
+                height: 45vh;
+        }
+}
+
+@media screen and (min-width: 768px) {
+        .slider-container {
+                height: 55vh;
+        }
+}
+
+@media screen and (min-width: 992px) {
+        .slider-container {
+                height: 65vh;
+        }
+}
+
+@media only screen and (min-width:800px) {
+
+        /*style corusel foto galeria e carosel foto firenze*/
+        .d-block {
+                padding-left: 5rem;
+                padding-right: 5rem;
+                width: 100%;
+                height: 750px;
+        }
+
+        /*style foto fontpage che ti porta alla galeria */
+        .appartm1 {
+                align-items: center;
+                text-align: center;
+        }
+
+        .appartm {
+                border-radius: 20%;
+                width: 80%;
+                height: 650px;
+        }
+
+        .appartm:hover {
+
+                transform: rotate(9deg);
+                transition: 2s;
+        }
+
+        /*style foto fontpage che ti porta alle foto e mapa */
+        .enjoy1 {
+                text-align: center;
+
+        }
+
+        .enjoy {
+                border-radius: 0 0 20% 20%;
+                width: 80%;
+                height: 600px;
+        }
+
+        .enjoy:hover {
+                background-color: rgb(206, 203, 203);
+                transform: rotate(-9deg);
+                transition: 2s;
+
+        }
+
+        .logofooter {
+                padding-top: 100px;
+
+                width: 40%;
+        }
+
+        .maps {
+
+                width: 70%;
+
+        }
+
+        .photo {
+                width: 50rem;
+        }
+
+        .section-center {
+                text-align: center;
+        }
+
+        .item-text {
+                width: 70%;
+                margin: auto;
+        }
+
+}
