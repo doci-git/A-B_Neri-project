@@ -175,7 +175,7 @@ a {
 /*image bacgtoun home page*/
 .header-background {
 
-        background-image: url(/foto/wallpaper.jpg);
+        background-image: url(foto/wallpaper.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
@@ -190,7 +190,7 @@ a {
 /*image backgroun firenze page*/
 .header-video {
 
-        background-image: url(/foto/arte.jpg);
+        background-image: url(foto/arte.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: 100%;
@@ -204,7 +204,7 @@ a {
 /*image backgroun apartamento page*/
 .header-apartamento {
 
-        background-image: url(/fotocasa/casa8.jpg);
+        background-image: url(fotocasa/casa8.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: 80%;
@@ -217,7 +217,7 @@ a {
 /*image backgroun apartamento ab1 page*/
 .header-ab1 {
 
-        background-image: url(/fotocasa/casa2.jpg);
+        background-image: url(fotocasa/casa2.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: 80%;
@@ -230,7 +230,7 @@ a {
 /*image backgroun apartamento ab2 page*/
 .header-ab2 {
 
-        background-image: url(/fotocasa/casa7.jpg);
+        background-image: url(fotocasa/casa7.jpg);
         background-repeat: no-repeat;
         width: 100%;
         height: 80%;
