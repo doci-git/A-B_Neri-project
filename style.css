@@ -699,6 +699,35 @@ h4 {
         margin: 15px;
 }
 
+/* section appartamanti.html*/
+.textapp {
+        padding: 22px;
+        background-color: rgba(0, 0, 0, 0.257);
+        font-family: cursive;
+        text-transform: capitalize;
+        font-size: 1.3rem;
+}
+
+.card {
+        margin: 20px;
+}
+
+.fotocard {
+        width: 100%;
+}
+
+.card h3 {
+        font-size: 1.4rem;
+        padding: 5px;
+}
+
+.card p {
+        letter-spacing: 1.5px;
+        color: #3c3c3b;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
 /*slider galery*/
 
 img {
