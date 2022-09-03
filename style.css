@@ -178,7 +178,7 @@ a {
         background-image: url(foto/wallpaper.jpg);
         background-repeat: no-repeat;
         width: 100%;
-        height: 100%;
+        height: 85vh;
         margin: 0 auto;
         background-size: cover;
         background-position: center;
@@ -471,16 +471,18 @@ h1 {
         transform: translate(-50%, -50%);
         font-weight: bold;
 }
+
 /*text h2 confort*/
-.confort{
+.confort {
         background: rgba(147, 145, 145, 0.137);
         font-family: cursive;
-       
-        text-transform:capitalize;
+
+        text-transform: capitalize;
         text-align: center;
         margin-top: 10px;
         padding: 10px;
 }
+
 /*div parent di confort*/
 .miglior-tarifa {
         background: rgba(147, 145, 145, 0.137);
@@ -490,22 +492,24 @@ h1 {
         grid-column-gap: 10px;
         grid-row-gap: 10px;
 }
-     /*div with img confrort*/   
-.colum-confort{
+
+/*div with img confrort*/
+.colum-confort {
         padding: 30px;
         text-align: center;
         align-items: center;
 }
+
 /*paragraf under all img confort*/
-.colum-confort p{
+.colum-confort p {
         font-family: fantasy;
         padding-top: 5px;
 }
-       
+
 /*foto */
 .chi-siamo {
         margin: auto;
-       
+
         width: 50%;
 }
 
@@ -513,7 +517,7 @@ h1 {
 .section3 {
         padding-top: 10px;
         position: relative;
-       
+
 }
 
 /*div galeri*/
@@ -676,7 +680,7 @@ h1 {
 }
 
 .photo {
-       padding: 10px;
+        padding: 10px;
         width: 100%;
 }
 
