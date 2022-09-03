@@ -785,9 +785,9 @@ main {
 
 .slider-container {
         border: 5px solid var(--clr-primary-5);
-        width: 80vw;
+        width: 95vw;
         margin: 0 auto;
-        height: 40vh;
+        height: 45vh;
         max-width: 80rem;
         position: relative;
         border-radius: 0.5rem;
@@ -809,7 +809,8 @@ main {
 
 .slide-img {
         height: 100%;
-        object-fit: cover;
+        width: 100%;
+        object-fit:cover;
 }
 
 
