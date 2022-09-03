@@ -244,9 +244,9 @@ a {
 .textapp-ab2 {
         padding: 10px 100px 10px 100px;
         background-color: rgba(0, 0, 0, 0.157);
-        font-family: 'Courier New', Courier, monospace;
+        font-family: cursive;
         text-transform: capitalize;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -285,9 +285,9 @@ h1 {
 .esplora-header h2 {
         padding: 22px;
         background-color: rgba(0, 0, 0, 0.257);
-        font-family:'Courier New', Courier, monospace;
+        font-family: cursive;
         text-transform: capitalize;
-        font-size: 1.8rem;
+        font-size: 1.9rem;
 }
 
 /*animated arrow*/
@@ -411,7 +411,7 @@ h1 {
 /*div le stanze*/
 .le-stanze {
         width: 100%;
-        
+
 }
 
 /*img apartamento sfuochato*/
@@ -440,8 +440,9 @@ h1 {
         padding: 20px;
         text-align: center;
 }
-.bgtext h2 span{
-      font-size: 36px;
+
+.bgtext h2 span {
+        font-size: 36px;
 }
 
 /*section 2*/
@@ -491,7 +492,13 @@ h1 {
 .confort {
         background: rgba(147, 145, 145, 0.137);
         font-family: cursive;
-
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+}
+.confort2 {
+        font-family: cursive;
         text-transform: capitalize;
         text-align: center;
         margin-top: 10px;
@@ -501,6 +508,15 @@ h1 {
 /*div parent di confort*/
 .miglior-tarifa {
         background: rgba(147, 145, 145, 0.137);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+}
+
+.miglior-tarifa2 {
+        background: rgb(255, 255, 255);
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
@@ -722,9 +738,9 @@ h4 {
 .textapp {
         padding: 22px;
         background-color: rgba(0, 0, 0, 0.257);
-        font-family: 'Courier New', Courier, monospace;
+        font-family: cursive;
         text-transform: capitalize;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
 }
 
 .card {
@@ -814,6 +830,7 @@ main {
         letter-spacing: 2px;
         color: rgb(186, 183, 183);
         transition: var(--transition);
+        border-bottom: #3c3c3b solid 2px;
 }
 
 .prevBtn:hover,
