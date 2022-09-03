@@ -244,7 +244,7 @@ a {
 .textapp-ab2 {
         padding: 10px 100px 10px 100px;
         background-color: rgba(0, 0, 0, 0.157);
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         text-transform: capitalize;
         font-size: 1.5rem;
         position: absolute;
@@ -285,7 +285,7 @@ h1 {
 .esplora-header h2 {
         padding: 22px;
         background-color: rgba(0, 0, 0, 0.257);
-        font-family: cursive;
+        font-family:'Courier New', Courier, monospace;
         text-transform: capitalize;
         font-size: 1.8rem;
 }
@@ -417,7 +417,7 @@ h1 {
 /*img apartamento sfuochato*/
 .apartamenti {
         width: 100vw;
-        height: 70vh;
+        height: 65vh;
         text-align: center;
 
 }
@@ -456,7 +456,7 @@ h1 {
 /*image con proverbio*/
 .david {
         width: 100vw;
-        height: 70vh;
+        height: 65vh;
 }
 
 /*text proverbio*/
@@ -543,13 +543,13 @@ h1 {
 /*img*/
 .galeria {
         width: 100vw;
-        height: 70vh;
+        height: 65vh;
 }
 
 /*text inside img*/
 .h1galleria {
         text-align: center;
-        color: #383737;
+        color: #161212;
         font-size: 50px;
         position: absolute;
         top: 50%;
@@ -722,7 +722,7 @@ h4 {
 .textapp {
         padding: 22px;
         background-color: rgba(0, 0, 0, 0.257);
-        font-family: cursive;
+        font-family: 'Courier New', Courier, monospace;
         text-transform: capitalize;
         font-size: 1.3rem;
 }
