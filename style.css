@@ -438,6 +438,7 @@ h1 {
         width: 95%;
         padding: 20px;
         text-align: center;
+        opacity: 0.8;
 }
 
 .bgtext h2 span {
