@@ -748,6 +748,7 @@ h4 {
 .textapp {
         padding: 22px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Merriweather', serif;
         text-transform: capitalize;
         font-size: 1.4rem;
 }
