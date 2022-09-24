@@ -19,8 +19,7 @@ html {
 body {
         background: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055));
         scroll-behavior: smooth;
-        /*font-family: Georgia, 'Times New Roman', Times, serif;*/
-        font-family: 'Merriweather', serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         overflow-x: hidden;
         margin: 0;
         padding: 0;
@@ -280,9 +279,9 @@ h1 {
 /*text style midle cover page*/
 .esplora-header h2 {
         padding: 22px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Merriweather', serif;
         text-transform: capitalize;
-        font-size: 1.9rem;
+        font-size: 2rem;
 }
 
 /*animated arrow*/
@@ -449,7 +448,7 @@ h1 {
         /* Black w/opacity/see-through */
         color: white;
         font-weight: bold;
-        border: 3px solid #f1f1f1;
+        border: 2px solid #f1f1f1;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -511,8 +510,9 @@ h1 {
 }
 
 /*text h2 confort*/
-.confort2 {
-        font-family: cursive;
+.confort2{
+        font-family: 'Merriweather', serif;
+        font-weight: 400;
         text-transform: capitalize;
         text-align: center;
         margin-top: 10px;
@@ -522,7 +522,7 @@ h1 {
 
 /*onfort2 ab1*/
 .miglior-tarifa2 {
-        background: rgb(255, 255, 255);
+        background: rgba(255, 255, 255, 0.034);
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
