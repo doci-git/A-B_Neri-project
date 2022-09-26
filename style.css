@@ -239,9 +239,9 @@ a {
 .textapp-ab1,
 .textapp-ab2 {
         padding: 10px 100px 10px 100px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Merriweather', serif;
         text-transform: capitalize;
-        font-size: 1.6rem;
+        font-size: 1.9rem;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -512,47 +512,6 @@ h1 {
         font-weight: bold;
 }
 
-/*text h2 confort*/
-.confort2 {
-        font-family: 'Merriweather', serif;
-        font-weight: 400;
-        text-transform: capitalize;
-        text-align: center;
-        margin-top: 10px;
-        padding: 10px;
-}
-
-
-/*onfort2 ab1*/
-.miglior-tarifa2 {
-        background: rgba(255, 255, 255, 0.034);
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-}
-
-/*div with img confrort*/
-.colum-confort {
-        padding: 30px;
-        text-align: center;
-        align-items: center;
-}
-
-/*paragraf under all img confort*/
-.colum-confort p {
-        font-family: fantasy;
-        padding-top: 5px;
-}
-
-/*foto */
-.chi-siamo {
-        margin: auto;
-
-        width: 50%;
-}
-
 /*section3*/
 .section3 {
         padding-top: 10px;
@@ -633,6 +592,201 @@ h1 {
         left: 50%;
         transform: translate(-50%, -50%);
 }
+
+
+
+/* section appartamanti.html*/
+.textapp {
+        padding: 22px;
+        letter-spacing: 1px;
+        font-family: 'Merriweather', serif;
+        text-transform: capitalize;
+        font-size: 1.4rem;
+}
+
+.card {
+        margin: 20px;
+}
+
+.fotocard {
+        border-radius: 2px;
+        width: 100%;
+        height: 45vh;
+}
+
+.card h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.5rem;
+        padding: 25px 0px 10px;
+        color:#2d4c56;
+}
+
+.card p {
+        letter-spacing: 1.5px;
+        color: #3c3c3b;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*slider galery*/
+
+img {
+        display: block;
+}
+
+@media screen and (min-width: 992px) {
+        .section-center {
+                width: 95vw;
+        }
+}
+
+main {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+}
+
+/*Slider*/
+
+.slider-container {
+        border: 5px solid var(--clr-primary-5);
+        width: 95vw;
+        margin: 0 auto;
+        height: 45vh;
+        max-width: 80rem;
+        position: relative;
+        border-radius: 0.3rem;
+        overflow: hidden;
+        margin-top: 4rem;
+}
+
+.slide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: var(--clr-primary-9);
+        color: var(--clr-white);
+        display: grid;
+        place-items: center;
+        transition: all 0.25s ease-in-out;
+        text-align: center;
+}
+
+.slide-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+}
+
+
+.btn-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.75rem;
+}
+
+.prevBtn,
+.nextBtn {
+        background: transparent;
+        border-color: transparent;
+        font-size: 1.75rem;
+        cursor: pointer;
+        margin: 0 0.25rem;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        color: rgb(186, 183, 183);
+        transition: var(--transition);
+        border-bottom: #3c3c3b solid 2px;
+}
+
+.prevBtn:hover,
+.nextBtn:hover {
+        color: black;
+}
+
+/*text h2 confort*/
+.confort2 p{
+        font-family: 'Merriweather', serif;
+        font-weight: 400;
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        letter-spacing: 1px;
+}
+
+
+/*onfort2 ab1*/
+.miglior-tarifa2 {
+        background: rgba(255, 255, 255, 0.034);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+}
+
+/*div with img confrort*/
+.colum-confort {
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+}
+
+/*paragraf under all img confort*/
+.colum-confort p {
+        font-family: fantasy;
+        padding-top: 5px;
+}
+
+/*foto */
+.chi-siamo {
+        margin: auto;
+
+        width: 50%;
+}
+
+/* section firenze */
+.menu {
+        background: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055));
+}
+
+/*florenze style info*/
+.menu {
+        text-align: center;
+        align-items: center;
+}
+
+.menu-item {
+        text-align: center;
+        align-items: center;
+}
+
+.photo {
+        padding: 10px;
+        width: 100%;
+}
+
+h4 {
+        text-align: center;
+        letter-spacing: var(--spacing);
+        text-transform: capitalize;
+        line-height: 1.25;
+        margin-bottom: 0.75rem;
+        font-family: "Roboto", sans-serif;
+        ;
+}
+
+.item-text {
+
+        margin-bottom: 2.25rem;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        color: hsl(210, 22%, 49%);
+        margin: 15px;
+}
+
+/*footer*/
 
 .subscribe {
         text-align: center;
@@ -740,7 +894,6 @@ h1 {
 }
 
 
-
 @media (max-width:720px) {
         .footer {
                 text-align: left;
@@ -756,156 +909,6 @@ h1 {
         .footer .row a i {
                 margin: 0% 3%;
         }
-}
-
-
-/*florenze style info*/
-.menu {
-        text-align: center;
-        align-items: center;
-}
-
-.menu-item {
-        text-align: center;
-        align-items: center;
-}
-
-.photo {
-        padding: 10px;
-        width: 100%;
-}
-
-h4 {
-        text-align: center;
-        letter-spacing: var(--spacing);
-        text-transform: capitalize;
-        line-height: 1.25;
-        margin-bottom: 0.75rem;
-        font-family: "Roboto", sans-serif;
-        ;
-}
-
-.item-text {
-
-        margin-bottom: 2.25rem;
-        word-spacing: 2px;
-        letter-spacing: 1px;
-        color: hsl(210, 22%, 49%);
-        margin: 15px;
-}
-
-/* section appartamanti.html*/
-.textapp {
-        padding: 22px;
-        letter-spacing: 1px;
-        font-family: 'Merriweather', serif;
-        text-transform: capitalize;
-        font-size: 1.4rem;
-}
-
-.card {
-        margin: 20px;
-}
-
-.fotocard {
-        border-radius: 5px;
-        width: 100%;
-        height: 45vh;
-}
-
-.card h3 {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.5rem;
-        padding: 25px 0px 10px;
-        color:#2d4c56;
-}
-
-.card p {
-        letter-spacing: 1.5px;
-        color: #3c3c3b;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-/*slider galery*/
-
-img {
-        display: block;
-}
-
-@media screen and (min-width: 992px) {
-        .section-center {
-                width: 95vw;
-        }
-}
-
-main {
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-}
-
-/*Slider*/
-
-.slider-container {
-        border: 5px solid var(--clr-primary-5);
-        width: 95vw;
-        margin: 0 auto;
-        height: 45vh;
-        max-width: 80rem;
-        position: relative;
-        border-radius: 0.5rem;
-        overflow: hidden;
-        margin-top: 4rem;
-}
-
-.slide {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background: var(--clr-primary-9);
-        color: var(--clr-white);
-        display: grid;
-        place-items: center;
-        transition: all 0.25s ease-in-out;
-        text-align: center;
-}
-
-.slide-img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-}
-
-
-.btn-container {
-        display: flex;
-        justify-content: center;
-        margin-top: 0.75rem;
-}
-
-.prevBtn,
-.nextBtn {
-        background: transparent;
-        border-color: transparent;
-        font-size: 1.75rem;
-        cursor: pointer;
-        margin: 0 0.25rem;
-        text-transform: capitalize;
-        letter-spacing: 2px;
-        color: rgb(186, 183, 183);
-        transition: var(--transition);
-        border-bottom: #3c3c3b solid 2px;
-}
-
-.prevBtn:hover,
-.nextBtn:hover {
-        color: black;
-}
-
-/* section firenze */
-.menu {
-        background: linear-gradient(rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0.055));
 }
 
 @media screen and (min-width: 576px) {
