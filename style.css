@@ -265,7 +265,7 @@ h1 {
 
 /*text middle cover page*/
 .esplora-header {
-        padding-top: 240px;
+        padding-top: 220px;
         text-align: center;
         color: rgb(255, 255, 255);
 }
@@ -797,7 +797,7 @@ h4 {
 /* section appartamanti.html*/
 .textapp {
         padding: 22px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 1px;
         font-family: 'Merriweather', serif;
         text-transform: capitalize;
         font-size: 1.4rem;
@@ -808,14 +808,16 @@ h4 {
 }
 
 .fotocard {
+        border-radius: 5px;
         width: 100%;
+        height: 45vh;
 }
 
 .card h3 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.5rem;
-        padding: 5px;
-        color: #3c3c3b;
+        padding: 25px 0px 10px;
+        color:#2d4c56;
 }
 
 .card p {
