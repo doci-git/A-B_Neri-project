@@ -236,6 +236,15 @@ a {
         position: relative;
 }
 
+/*image backgroun contatct page*/
+.header-contact {
+        background: linear-gradient(rgba(0, 0, 0, 0.195), rgba(0, 0, 0, 0.195)), url(foto/contact-foto.jpg) center center / cover no-repeat;
+        width: 100%;
+        height: 60vh;
+        margin: 0 auto;
+        position: relative;
+}
+
 .textapp-ab1,
 .textapp-ab2 {
         padding: 10px 100px 10px 100px;
@@ -614,7 +623,7 @@ h1 {
 }
 
 .fotocard {
-       
+
         text-align: center;
         border-radius: 2px;
         width: 100%;
@@ -717,7 +726,7 @@ main {
 .confort2 p {
         font-family: 'Merriweather', serif;
         font-weight: 400;
-        text-align:left;
+        text-align: left;
         padding: 10px;
         word-spacing: 2px;
         letter-spacing: 1px;
@@ -793,6 +802,60 @@ h4 {
         letter-spacing: 1px;
         color: hsl(210, 22%, 49%);
         margin: 15px;
+}
+
+/*contact html*/
+.contact-form {
+        text-align: center;
+}
+.contact-form h2{
+        padding: 10px;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #2d4c56;
+        text-transform: capitalize;
+}
+
+.contact-form i {
+      
+        padding: 1.5rem;
+        font-size: 2.4rem;
+}
+
+.contact-form .fa-whatsapp {
+        color: #008000;
+}
+
+.contact-form .fa-bold {
+        color: rgb(22, 19, 192);
+}
+
+.contact-form .fa-airbnb {
+        color: rgb(228, 11, 11);
+}
+
+.best-price {
+        margin-top: 1rem;
+        text-align: center;
+}
+.best-price h4{
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-size: 25px;
+        font-weight: 700;
+        color: #2d4c56;
+        text-transform: capitalize;
+} 
+
+.best-price .fa-whatsapp {
+        font-size: 3rem;
+        color: green;
+
+}
+.map{
+        margin-top: 50px;
+        text-align: center;
 }
 
 /*footer*/
