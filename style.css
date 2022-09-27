@@ -464,9 +464,10 @@ h1 {
 
 
 /*section 2*/
-.section2{
+.section2 {
         padding-top: 10%;
 }
+
 .proverbio,
 .miglior-tarifa {
         position: relative;
@@ -536,7 +537,7 @@ h1 {
 }
 
 .one {
-       
+
         top: 0;
         left: 0;
 }
@@ -548,7 +549,7 @@ h1 {
 }
 
 .three {
-       
+
         top: 20%;
         left: 45%;
 }
@@ -559,13 +560,13 @@ h1 {
         right: 45%;
 }
 
-.five { 
+.five {
         z-index: 2;
         top: 65%;
         right: 21%;
 }
 
-.six { 
+.six {
         z-index: 1;
         top: 76%;
         right: 0%;
@@ -597,7 +598,9 @@ h1 {
 
 /* section appartamanti.html*/
 .textapp {
-        padding: 22px;
+        padding: 20px;
+        text-align: left;
+        word-spacing: 2px;
         letter-spacing: 1px;
         font-family: 'Merriweather', serif;
         text-transform: capitalize;
@@ -605,26 +608,34 @@ h1 {
 }
 
 .card {
+        position: relative;
         margin: 20px;
 }
 
 .fotocard {
+       
+        text-align: center;
         border-radius: 2px;
         width: 100%;
-        height: 45vh;
+        height: 35vh;
 }
 
 .card h3 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.5rem;
-        padding: 25px 0px 10px;
-        color:#2d4c56;
+        padding: 15px 0px 10px;
+        color: #2d4c56;
+        margin-left: 15px;
 }
 
 .card p {
-        letter-spacing: 1.5px;
-        color: #3c3c3b;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: 'Merriweather', serif;
+        font-weight: 400;
+        text-align: left;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        color: hsl(210, 22%, 49%);
+        margin: 15px;
 }
 
 
@@ -705,16 +716,17 @@ main {
 }
 
 /*text h2 confort*/
-.confort2 p{
+.confort2 p {
         font-family: 'Merriweather', serif;
         font-weight: 400;
         text-transform: capitalize;
         text-align: center;
-        margin-top: 10px;
         padding: 10px;
+        word-spacing: 2px;
         letter-spacing: 1px;
+        color: hsl(210, 22%, 49%);
+        margin: 15px;
 }
-
 
 /*onfort2 ab1*/
 .miglior-tarifa2 {
