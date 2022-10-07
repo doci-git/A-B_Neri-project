@@ -598,7 +598,7 @@ h1 {
         text-transform: capitalize;
         text-align: center;
         position: absolute;
-        top: 50%;
+        top: 49%;
         left: 50%;
         transform: translate(-50%, -50%);
         text-shadow: #3d3d3d60 4px 5px;
@@ -808,7 +808,8 @@ h4 {
 .contact-form {
         text-align: center;
 }
-.contact-form h2{
+
+.contact-form h2 {
         padding: 10px;
         font-family: 'Merriweather', serif;
         font-size: 20px;
@@ -818,7 +819,7 @@ h4 {
 }
 
 .contact-form i {
-      
+
         padding: 1.5rem;
         font-size: 2.4rem;
 }
@@ -839,21 +840,23 @@ h4 {
         margin-top: 1rem;
         text-align: center;
 }
-.best-price h4{
+
+.best-price h4 {
         margin-top: 30px;
         font-family: 'Merriweather', serif;
         font-size: 25px;
         font-weight: 700;
         color: #2d4c56;
         text-transform: capitalize;
-} 
+}
 
 .best-price .fa-whatsapp {
         font-size: 3rem;
         color: green;
 
 }
-.map{
+
+.map {
         margin-top: 50px;
         text-align: center;
 }
@@ -964,25 +967,47 @@ h4 {
         font-size: 2em;
         margin: 0% 1%;
 }
+
 /*small mobile view*/
 @media (max-width:325px) {
-        .logo1{
+        
+        .logo1 {
                 width: 80px;
         }
-        .texth1{
+
+        .texth1 {
                 font-size: 1.8rem;
                 margin-left: 68px;
         }
-        .sticky{
+
+        .sticky {
                 height: 84px;
         }
-        .sidebar-toggle{
+
+        .sidebar-toggle {
                 top: 1.5rem;
                 right: 1rem;
         }
 }
+@media (min-width: 576px) {
+        .slider-container {
+                height: 45vh;
+        }
+        .esplora-header{
+                padding-top: 350px;
+        }
+        .esplora-header h2{
+                font-size: 2.5rem;
+        }
+        .h1galleria{
+                top: 45%;
+                left: 50%;
+                font-size: 50px;
+        }
+}
 
 @media (max-width:720px) {
+        
         .footer {
                 text-align: left;
                 padding: 5%;
@@ -999,25 +1024,21 @@ h4 {
         }
 }
 
-@media screen and (min-width: 576px) {
-        .slider-container {
-                height: 45vh;
-        }
-}
 
-@media screen and (min-width: 768px) {
+
+@media (min-width: 768px) {
         .slider-container {
                 height: 55vh;
         }
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
         .slider-container {
                 height: 65vh;
         }
 }
 
-@media only screen and (min-width:800px) {
+@media (min-width:800px) {
 
         /*style corusel foto galeria e carosel foto firenze*/
         .d-block {
@@ -1046,28 +1067,12 @@ h4 {
         }
 
         /*style foto fontpage che ti porta alle foto e mapa */
-        .enjoy1 {
-                text-align: center;
-
-        }
-
-        .enjoy {
-                border-radius: 0 0 20% 20%;
-                width: 80%;
-                height: 600px;
-        }
-
-        .enjoy:hover {
-                background-color: rgb(206, 203, 203);
-                transform: rotate(-9deg);
-                transition: 2s;
-
-        }
+      
 
         .logofooter {
                 padding-top: 100px;
 
-                width: 40%;
+                width: 20%;
         }
 
         .maps {
