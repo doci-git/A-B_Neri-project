@@ -1330,8 +1330,9 @@ h4 {
         .intro {
                 text-align: center;
                 padding-top: 100px;
-                width: 35%;
+                width: 48%;
                 position: absolute;
+                top: 120%;
                 left: 50%;
 
         }
@@ -1352,9 +1353,10 @@ h4 {
         .intro2 {
                 text-align: center;
                 padding-top: 100px;
-                width: 35%;
+                width: 39%;
                 position: absolute;
-                right: 58%;
+                top: 5%;
+                right: 56%;
 
         }
 
@@ -1389,8 +1391,8 @@ h4 {
         /*image con proverbio*/
         .david {
                 padding: 60px;
-                width: 45vw;
-                height: 85vh;
+                width: 42vw;
+                height: 82vh;
                 border-radius: 10%;
         }
 
@@ -1398,7 +1400,7 @@ h4 {
         .proverbio p,
         .proverbio h1 {
                 top: 40%;
-                left: 70%;
+                left: 68%;
                 color: #2d4c56;
                 width: 40%;
                 font-size: 34px;
@@ -1411,8 +1413,8 @@ h4 {
         }
 
         .galery-div img {
-                width: 390px;
-                height: 350px;
+                width: 350px;
+                height: 320px;
         }
         .h1galleria{
                 display: none;
@@ -1420,6 +1422,29 @@ h4 {
 
         .slider-container {
                 height: 65vh;
+        }
+         /*footer*/
+         .iformazioni h3{
+                font-size: 1.8rem;
+                margin-left: 40px;
+         }
+         .logo-footer {
+                margin-right: 30px;
+                width: 15%;
+         }
+         .footer .row ul li {
+                display: block;
+                margin: 20px 40px;
+                text-align: left;
+        }
+
+        .footer .row a i {
+                text-align: center;
+                margin: 0% 2%;
+        }
+
+        .footer .row {
+                font-size: 1.5em;
         }
 }
 
