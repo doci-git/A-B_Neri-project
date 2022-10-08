@@ -970,7 +970,7 @@ h4 {
 
 /*small mobile view*/
 @media (max-width:325px) {
-        
+
         .logo1 {
                 width: 80px;
         }
@@ -989,17 +989,21 @@ h4 {
                 right: 1rem;
         }
 }
+
 @media (min-width: 576px) {
         .slider-container {
                 height: 45vh;
         }
-        .esplora-header{
+
+        .esplora-header {
                 padding-top: 350px;
         }
-        .esplora-header h2{
+
+        .esplora-header h2 {
                 font-size: 2.5rem;
         }
-        .h1galleria{
+
+        .h1galleria {
                 top: 45%;
                 left: 50%;
                 font-size: 50px;
@@ -1007,7 +1011,7 @@ h4 {
 }
 
 @media (max-width:720px) {
-        
+
         .footer {
                 text-align: left;
                 padding: 5%;
@@ -1029,6 +1033,26 @@ h4 {
 @media (min-width: 768px) {
         .slider-container {
                 height: 55vh;
+        }
+        .section1{
+                padding-top: 100px;
+        }
+        .intro{
+                padding: 40px;
+        }
+        .h2-intro{
+                font-size: 40px;
+        }
+        .p-intro{
+                font-size: 25px;
+        }
+        .apartamenti{
+        height: 60%;
+        }
+        .bgtext{
+                width: 75%;
+                padding: 25px;   
+                font-size: 20px;   
         }
 }
 
@@ -1067,7 +1091,7 @@ h4 {
         }
 
         /*style foto fontpage che ti porta alle foto e mapa */
-      
+
 
         .logofooter {
                 padding-top: 100px;
