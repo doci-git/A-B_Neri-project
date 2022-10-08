@@ -125,6 +125,9 @@ a {
 }
 
 /*link style*/
+.links2 a{
+        visibility: hidden;
+}
 .links a {
         display: block;
         font-size: 1.5rem;
@@ -168,7 +171,8 @@ a {
         color: rgb(255, 255, 255);
         padding-bottom: 48px;
 }
-h4{
+
+h4 {
         font-size: 1.6rem;
 }
 
@@ -658,11 +662,6 @@ img {
         display: block;
 }
 
-@media screen and (min-width: 992px) {
-        .section-center {
-                width: 95vw;
-        }
-}
 
 main {
         min-height: 100vh;
@@ -969,7 +968,7 @@ h4 {
 
 /*small mobile view*/
 @media (max-width:325px) {
-
+      
         .logo1 {
                 width: 80px;
         }
@@ -990,6 +989,7 @@ h4 {
 }
 
 @media (min-width: 576px) {
+      
         .slider-container {
                 height: 45vh;
         }
@@ -1010,7 +1010,7 @@ h4 {
 }
 
 @media (max-width:720px) {
-
+       
         .footer {
                 text-align: left;
                 padding: 5%;
@@ -1030,7 +1030,7 @@ h4 {
 
 /*tablet view*/
 @media (min-width: 758px) {
-
+        
         /*button menu */
         .sidebar-toggle {
                 font-size: 2.5rem;
@@ -1043,7 +1043,7 @@ h4 {
         .logo1 {
                 width: 100px;
         }
-
+      
         /*text aside logo homepage*/
         .texth1 {
                 margin-left: 90px;
@@ -1053,12 +1053,14 @@ h4 {
 
         /*text aside logo inside menu*/
         .textlogoh1 {
-        font-size: 2.4rem;
+                font-size: 2.4rem;
         }
-        .links{
+
+        .links {
                 padding-top: 50px;
         }
-        .links a{
+
+        .links a {
                 font-size: 1.8rem;
         }
 
@@ -1229,14 +1231,8 @@ h4 {
         }
 }
 
-@media (min-width: 992px) {
-        .slider-container {
-                height: 65vh;
-        }
-}
-
 @media (min-width:800px) {
-
+     
         /*style corusel foto galeria e carosel foto firenze*/
         .d-block {
                 padding-left: 5rem;
@@ -1291,4 +1287,40 @@ h4 {
                 margin: auto;
         }
 
+}
+
+/*laptop / desktop*/
+@media (min-width: 902px) {
+        /*nav bar*/
+        .sidebar-toggle{
+                display: none;
+        }
+        .links2 a{
+              visibility: visible;
+        }
+        .links2 a{
+                font-size: 1.6rem;
+                color: white;
+                float: right;
+                padding: 10px;
+                margin: 50px 10px ;
+                text-transform:capitalize;
+                font-family: 'Merriweather', serif;
+                font-weight: 700;
+              
+        }
+        .links2 {
+                text-decoration: overline;
+        }
+
+
+        .slider-container {
+                height: 65vh;
+        }
+}
+
+@media screen and (min-width: 992px) {
+        .section-center {
+                width: 95vw;
+        }
 }
