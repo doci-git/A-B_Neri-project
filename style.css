@@ -477,8 +477,7 @@ h1 {
         padding-top: 10%;
 }
 
-.proverbio,
-.miglior-tarifa {
+.proverbio {
         position: relative;
         padding-top: 10px;
         width: 100%;
@@ -919,7 +918,6 @@ h4 {
 
 .iformazioni {
         width: 100vw;
-
         background-color: #151515;
         color: rgb(183, 181, 181);
         padding-bottom: 90px;
@@ -1029,30 +1027,127 @@ h4 {
 }
 
 
-
-@media (min-width: 768px) {
+/*tablet view*/
+@media (min-width: 758px) {
         .slider-container {
                 height: 55vh;
         }
-        .section1{
+
+        .section1 {
                 padding-top: 100px;
         }
-        .intro{
+
+        .intro {
                 padding: 40px;
         }
-        .h2-intro{
+
+        .h2-intro {
                 font-size: 40px;
+                padding-bottom: 20px;
         }
-        .p-intro{
+
+        .p-intro {
                 font-size: 25px;
         }
-        .apartamenti{
-        height: 60%;
+
+        .apartamenti {
+                height: 60%;
         }
-        .bgtext{
+
+        .bgtext {
                 width: 75%;
-                padding: 25px;   
-                font-size: 20px;   
+                padding: 25px;
+                font-size: 20px;
+        }
+
+        .galery-div {
+                margin: 40px;
+        }
+
+        .galery-div img {
+                width: 280px;
+                height: 250px;
+        }
+
+        .one {
+
+                top: 0;
+                left: 0;
+        }
+
+        .two {
+                top: 10%;
+                left: 31%;
+
+        }
+
+        .three {
+
+                top: 19%;
+                left: 59%;
+        }
+
+        .four {
+                top: 58%;
+                right: 59%;
+        }
+
+        .five {
+                top: 68%;
+                right: 31%;
+        }
+
+        .six {
+                top: 79%;
+                right: 0%;
+        }
+
+        .h1galleria {
+                top: 52%;
+                left: 50%;
+        }
+
+        .proverbio h1 {
+                padding: 40px;
+        }
+
+        /* section appartamanti.html*/
+        .textapp {
+                padding: 50px;
+                word-spacing: 3px;
+                letter-spacing: 1px;
+        }
+
+        /*foto appartamento*/
+        .card {
+
+                margin: 40px;
+        }
+
+        .card h3 {
+                font-size: 2rem;
+        }
+
+        .card p {
+                font-size: 18px;
+        }
+
+        .fotocard {
+                height: 45vh;
+        }
+
+        .footer .row ul li {
+                display: block;
+                margin: 20px 0px;
+                text-align: left;
+        }
+
+        .footer .row a i {
+                margin: 0% 3%;
+        }
+
+        .footer .row {
+                font-size: 1em;
         }
 }
 
