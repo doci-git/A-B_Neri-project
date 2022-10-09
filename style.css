@@ -1577,4 +1577,196 @@ h4 {
 @media (min-width: 1152px) {
 
 
+        /*text after background home page*/
+        .intro {
+                text-align: center;
+                padding-top: 100px;
+                width: 48%;
+                position: absolute;
+                top: 110%;
+                left: 50%;
+
+        }
+
+        .h2-intro {
+                font-size: 49px;
+        }
+
+        .p-intro {
+                font-size: 32px;
+        }
+
+        .le-stanze {
+                padding-top: 60px;
+                width: 100%;
+        }
+
+        .intro2 {
+                text-align: center;
+                padding-top: 150px;
+                width: 39%;
+                position: absolute;
+                right: 56%;
+
+        }
+
+        .h2-intro2 {
+                padding-bottom: 20px;
+                font-size: 49px;
+        }
+
+        .p-intro2 {
+                font-size: 32px;
+        }
+
+        .le-stanze {
+                padding-top: 60px;
+                width: 100%;
+        }
+
+        /*img apartamento sfuochato*/
+        .apartamenti {
+                width: 36%;
+
+        }
+
+        /* div with text in the middle of the page/image */
+        .bgtext {
+                top: 40%;
+                left: 18%;
+                width: 34%;
+                padding: 15px;
+        }
+
+
+
+        .one {
+
+                top: 0;
+                left: 0;
+        }
+
+        .two {
+                top: 10%;
+                left: 31%;
+
+        }
+
+        .three {
+
+                top: 20%;
+                left: 55%;
+        }
+
+        .four {
+                z-index: 3;
+                top: 55%;
+                left: 2%;
+        }
+
+        .five {
+                z-index: 2;
+                top: 65%;
+                left: 40%;
+        }
+
+        .six {
+                z-index: 1;
+                top: 76%;
+                left: 65%;
+        }
+
+        /*text proverbio*/
+
+        .proverbio h1 {
+                padding-bottom: 20px;
+        }
+
+        .proverbio p,
+        .proverbio h1 {
+
+                top: 40%;
+                left: 75%;
+                color: #2d4c56;
+                width: 50%;
+                font-size: 25px;
+        }
+
+        /*div galeri*/
+        .galery-div {
+                width: 40%;
+                left: 50%;
+        }
+
+        /*image con proverbio*/
+        .david {
+                box-shadow: #42494963 8px 8px 8px 2px;
+                margin: 60px;
+                width: 42vw;
+                height: 62vh;
+                border-radius: 8%;
+        }
+
+        .galery-div img {
+                width: 360px;
+                height: 310px;
+        }
+
+        .h1galleria {
+                display: none;
+        }
+
+        /*apartment page*/
+        .esplora-header{
+                text-align: center;
+        }
+        .textapp{
+                text-align: center;
+                padding: 50px;
+        }
+        .card {
+                left: 10%;
+                margin: 150px;
+        }
+
+        .fotocard {
+                border-radius: 2px;
+                width: 70%;
+                height: 58vh;
+        }
+        .card h3 {
+                font-size: 2.2rem;
+        }
+
+        .card p {
+                font-size: 22px;
+        }
+        .slide-img {
+                height: 100%;
+                width: 70%;
+                object-fit: cover;
+        }
+
+        .slider-container {
+                height: 85vh;
+        }
+
+        /*foto */
+        .chi-siamo {
+                margin: auto;
+                width: 20%;
+        }
+        .confort2 p {
+                font-size: 25px;
+                padding: 1% 10% 2%;
+        }
+        /*firenze*/
+        .photo {
+       
+                margin-left: 400px;
+                width: 60%;
+        }
+        .item-text {
+                font-size: 22px;
+        }
 }
