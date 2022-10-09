@@ -1306,10 +1306,10 @@ h4 {
         }
 
         .links2 a {
-                font-size: 1.6rem;
+                font-size: 1.5rem;
                 color: white;
                 float: right;
-                padding: 10px;
+                padding: 8px;
                 margin: 50px 10px;
                 text-transform: capitalize;
                 font-family: 'Merriweather', serif;
@@ -1332,52 +1332,51 @@ h4 {
                 padding-top: 100px;
                 width: 48%;
                 position: absolute;
-                top: 120%;
+                top: 110%;
                 left: 50%;
 
         }
 
         .h2-intro {
-                font-size: 49px;
+                font-size: 39px;
         }
 
         .p-intro {
-                font-size: 35px;
+                font-size: 22px;
         }
 
         .le-stanze {
                 padding-top: 60px;
-                width: 95%;
+                width: 100%;
         }
 
         .intro2 {
                 text-align: center;
-                padding-top: 100px;
+                padding-top: 50px;
                 width: 39%;
                 position: absolute;
-                top: 5%;
                 right: 56%;
 
         }
 
         .h2-intro2 {
                 padding-bottom: 20px;
-                font-size: 49px;
+                font-size: 39px;
         }
 
         .p-intro2 {
-                font-size: 35px;
+                font-size: 22px;
         }
 
-        .le-stanze2 {
+        .le-stanze {
                 padding-top: 60px;
-                width: 95%;
+                width: 100%;
         }
 
         /*img apartamento sfuochato*/
         .apartamenti {
                 width: 35%;
-                height: 95vh;
+
         }
 
         /* div with text in the middle of the page/image */
@@ -1388,51 +1387,98 @@ h4 {
                 padding: 15px;
         }
 
-        /*image con proverbio*/
-        .david {
-                padding: 60px;
-                width: 42vw;
-                height: 82vh;
-                border-radius: 10%;
+       
+
+        .one {
+
+                top: 0;
+                left: 0;
+        }
+
+        .two {
+                top: 10%;
+                left: 31%;
+
+        }
+
+        .three {
+
+                top: 20%;
+                left: 55%;
+        }
+
+        .four {
+                z-index: 3;
+                top: 55%;
+                left: 2%;
+        }
+
+        .five {
+                z-index: 2;
+                top: 65%;
+                left: 40%;
+        }
+
+        .six {
+                z-index: 1;
+                top: 76%;
+                left: 65%;
         }
 
         /*text proverbio*/
+
+        .proverbio h1 {
+                padding-bottom: 20px;
+        }
         .proverbio p,
         .proverbio h1 {
+
                 top: 40%;
-                left: 68%;
+                left: 75%;
                 color: #2d4c56;
-                width: 40%;
-                font-size: 34px;
+                width: 50%;
+                font-size: 25px;
         }
 
         /*div galeri*/
         .galery-div {
-                width: 50%;
-                left: 44%;
+                width: 40%;
+                left: 40%;
+        }
+         /*image con proverbio*/
+        .david {
+                box-shadow: #42494963 8px 8px 8px 2px;
+                margin: 60px;
+                width: 42vw;
+                height: 62vh;
+                border-radius: 8%;
         }
 
         .galery-div img {
-                width: 350px;
-                height: 320px;
+                width: 260px;
+                height: 210px;
         }
-        .h1galleria{
+
+        .h1galleria {
                 display: none;
         }
 
         .slider-container {
                 height: 65vh;
         }
-         /*footer*/
-         .iformazioni h3{
+
+        /*footer*/
+        .iformazioni h3 {
                 font-size: 1.8rem;
                 margin-left: 40px;
-         }
-         .logo-footer {
+        }
+
+        .logo-footer {
                 margin-right: 30px;
                 width: 15%;
-         }
-         .footer .row ul li {
+        }
+
+        .footer .row ul li {
                 display: block;
                 margin: 20px 40px;
                 text-align: left;
