@@ -570,13 +570,13 @@ h1 {
 
 .three {
 
-        top: 20%;
+        top: 19%;
         left: 45%;
 }
 
 .four {
         z-index: 3;
-        top: 55%;
+        top: 56%;
         right: 45%;
 }
 
@@ -1256,7 +1256,7 @@ h4 {
         }
 
         /*footer*/
-        .footer{}
+      
         .footer .row ul li {
                 display: block;
                 margin: 20px 0px;
