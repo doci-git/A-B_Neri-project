@@ -509,7 +509,7 @@ h1 {
         text-align: center;
         width: 95%;
         color: #f1f1f1;
-        font-size: 23px;
+        font-size: 22px;
         padding-top: 270px;
         position: absolute;
         top: 40%;
@@ -519,7 +519,7 @@ h1 {
 }
 
 /*text proverbio*/
-.proverbio h1 {
+.proverbio h2 {
         font-family: 'Merriweather', serif;
         text-align: center;
         width: 98%;
@@ -644,7 +644,7 @@ h1 {
 .card h3 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 1.7rem;
-        padding: 15px 0px 10px;
+        padding: 10px 0px 10px;
         color: #2d4c56;
         margin-left: 15px;
 }
@@ -656,7 +656,7 @@ h1 {
         word-spacing: 2px;
         letter-spacing: 1px;
         color: hsl(210, 22%, 49%);
-        margin: 15px;
+        margin: 1px 10px 10px;
 }
 
 
