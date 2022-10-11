@@ -1256,6 +1256,7 @@ h4 {
         }
 
         /*footer*/
+        .footer{}
         .footer .row ul li {
                 display: block;
                 margin: 20px 0px;
@@ -1783,15 +1784,16 @@ h4 {
 
 @media (min-width: 1500px) {
 
-          /*text after background home page*/
-          .intro {
-              
+        /*text after background home page*/
+        .intro {
+
                 width: 48%;
-              
+
                 top: 110%;
                 left: 50%;
 
         }
+
         /*img apartamento sfuochato*/
         .apartamenti {
                 width: 38%;
@@ -1808,14 +1810,16 @@ h4 {
                 height: 80vh;
 
         }
-          /* div with text in the middle of the page/image */
-          .bgtext {
+
+        /* div with text in the middle of the page/image */
+        .bgtext {
                 top: 40%;
                 left: 22%;
                 width: 35%;
                 padding: 25px;
         }
+
         .intro2 {
-              top: 12%;
+                top: 12%;
         }
 }
