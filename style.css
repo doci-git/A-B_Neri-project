@@ -22,7 +22,7 @@ body {
         font-family: Georgia, 'Times New Roman', Times, serif;
         overflow-x: hidden;
         margin: 0;
-        padding: 0;
+        padding: 0;      
 }
 
 ul {
@@ -960,7 +960,7 @@ h4 {
         width: 100vw;
         background-color: #151515;
         color: rgb(183, 181, 181);
-        padding-bottom: 90px;
+        padding-bottom: 60px;
         padding-left: 10px;
         padding-top: 20px;
 
@@ -1183,7 +1183,7 @@ h4 {
                 left: 50%;
         }
 
-        .proverbio h1 {
+        .proverbio h2 {
                 padding: 40px;
         }
 
@@ -1469,7 +1469,7 @@ h4 {
         }
 
         .proverbio p,
-        .proverbio h1 {
+        .proverbio h2 {
 
                 top: 40%;
                 left: 75%;
@@ -1682,12 +1682,12 @@ h4 {
 
         /*text proverbio*/
 
-        .proverbio h1 {
+        .proverbio h2 {
                 padding-bottom: 20px;
         }
 
         .proverbio p,
-        .proverbio h1 {
+        .proverbio h2 {
 
                 top: 40%;
                 left: 75%;
