@@ -543,7 +543,7 @@ h1 {
 /*div galeri*/
 .galery-div {
         margin: 20px;
-        width: 90w;
+        width: 90vw;
         height: 85vh;
         position: relative;
 }
@@ -583,7 +583,7 @@ h1 {
 .five {
         z-index: 2;
         top: 65%;
-        right: 21%;
+        right: 22%;
 }
 
 .six {
@@ -603,7 +603,7 @@ h1 {
 .h1galleria {
         z-index: 5;
         font-family: 'Merriweather', serif;
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 700;
         color: #2d4c56;
         text-transform: capitalize;
