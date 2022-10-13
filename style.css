@@ -1045,6 +1045,11 @@ h4 {
                 top: 1.5rem;
                 right: 1rem;
         }
+        .click{
+                left: 40%;
+                top: 30%;
+                font-size: 22px;
+        }
 }
 
 @media (min-width: 576px) {
