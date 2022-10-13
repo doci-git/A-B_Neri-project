@@ -1792,18 +1792,55 @@ h4 {
         .intro {
 
                 width: 48%;
-
                 top: 110%;
                 left: 50%;
-
         }
 
         /*img apartamento sfuochato*/
         .apartamenti {
                 width: 38%;
+        }
+        
+        .one {
 
+                top: 0;
+                left: 0;
+        }
+
+        .two {
+                top: 10%;
+                left: 31%;
 
         }
+
+        .three {
+
+                top: 20%;
+                left: 65%;
+        }
+
+        .four {
+                z-index: 3;
+                top: 55%;
+                left: 2%;
+        }
+
+        .five {
+                z-index: 2;
+                top: 68%;
+                left: 36%;
+        }
+
+        .six {
+                z-index: 1;
+                top: 78%;
+                left: 67%;
+        }
+        .galery-div img {
+                width: 320px;
+                height: 300px;
+        }
+
 }
 
 @media (min-width: 1700px) {
