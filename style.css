@@ -217,7 +217,7 @@ h4 {
 
 /*image backgroun apartamento page*/
 .header-apartamento {
-        background: linear-gradient(rgba(0, 0, 0, 0.194), rgba(0, 0, 0, 0.195)), url(fotocasa/casa8.jpg) center center / cover no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.194), rgba(0, 0, 0, 0.195)), url(foto/apartment-background.jpg) center center / cover no-repeat;
         width: 100%;
         height: 85vh;
         margin: 0 auto;
