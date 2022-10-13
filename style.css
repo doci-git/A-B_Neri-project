@@ -641,12 +641,13 @@ h1 {
         height: 35vh;
 }
 .fotocard:hover{
-       opacity:0.6;
+       opacity:0.5;
        border-radius: 10px;
        color: #151515;
 }
 
 .click {
+        text-shadow: #3c3c3b 4px 4px 4px ;
         color: #e7e7e7;
         z-index: 1;
         font-size: 30px;
