@@ -1095,6 +1095,22 @@ textarea {
         font-size: 2em;
         margin: 0% 1%;
 }
+/*thaks submit*/
+.thanks{
+        padding-top: 20vh;
+}
+.h1thanks{
+       
+        text-align: center;
+        text-transform: capitalize;
+        font-family: 'Merriweather', serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: #2d4c56;
+        text-transform: capitalize;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+}
 
 /*small mobile view*/
 @media (max-width:325px) {
