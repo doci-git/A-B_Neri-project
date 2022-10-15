@@ -198,3 +198,10 @@
       slide.style.transform = `translateX(-${counter * 100}%)`
     })
   };
+
+  // contatct form
+  function addClass() {
+    document.body.classList.add("sent");
+  }
+  
+  sendLetter.addEventListener("click", addClass);
